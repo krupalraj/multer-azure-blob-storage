@@ -20,7 +20,7 @@ export interface IMASOptions {
     containerAccessLevel?: string;
 }
 export interface MulterInFile extends Express.Multer.File {
-    stream: Stream;
+    stream: any;
 }
 export interface MulterOutFile extends Express.Multer.File {
     url: string;
